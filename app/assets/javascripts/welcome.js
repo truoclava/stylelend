@@ -67,20 +67,3 @@ function addImage(width, height, newWidth, newHeight) {
   var string = '<li id=image-'+ id + '>' + newWidth + 'x' + newHeight + '</li>';
   $("#scaled-dimensions ul").append(string)
 }
-
-//   width = parseFloat(num1);
-//   height = parseFloat(num2);
-//   maxWidth = parseFloat(num3);
-//   maxHeight = parseFloat(num4);
-//
-//   if ((width > maxWidth) || (height > maxHeight)) {
-//     var ratio1 = maxWidth/width;
-//     var ratio2 = maxHeight/height;
-//     var ratio = Math.min(ratio1, ratio2);
-//
-//     var width = Math.round(width * ratio);
-//     var height = Math.round(height * ratio);
-//   }
-//   $('#number5').val(width);
-//   $('#number6').val(height);
-// }

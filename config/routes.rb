@@ -5,6 +5,10 @@ Rails.application.routes.draw do
   get 'welcome/index'
   root 'welcome#index'
 
+  namespace :api, :defaults => { :format => 'json' } do
+    resources :images
+  end
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
